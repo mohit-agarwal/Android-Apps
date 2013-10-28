@@ -1,0 +1,8 @@
+A crawler which crawls a HTML page for Image and Hyperlinks Elements and add them in 2 List Views.App uses a service called SearchImagesandLinksService to get the image url and hyperlinks and use a handler in the activity to update the list views.
+
+Functionalities implemented-
+1.Web Site Crawling - using Jsoup Library
+2.Binding Services with Activities
+3.ListView and List Adapters
+4.Handlers and Messengers
+
