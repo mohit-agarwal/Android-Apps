@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" tools:ignore="TextFields,HardcodedText,UselessParent">
+
+
+<LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="10dp" android:orientation="horizontal">
+<TextView android:id="@+id/dialog_name" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_margin="5sp" android:text="Wonder Name"/>
+<EditText android:id="@+id/dialog_edit_name" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_margin="5sp" android:ems="10">
+<requestFocus/>
+</EditText>
+</LinearLayout>
+
+<LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="10dp" android:weightSum="2" android:orientation="horizontal">
+<TextView android:id="@+id/dialog_imagename" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_margin="5sp" android:layout_weight="1" android:text="Image File"/>
+<EditText android:id="@+id/dialog_edit_imagename" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_margin="5sp" android:layout_weight="1" android:ems="10"></EditText>
+</LinearLayout>
+
+<LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="10dp" android:weightSum="2" android:orientation="horizontal">
+<TextView android:id="@+id/dialog_desc" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_margin="5sp" android:layout_weight="1" android:text="Wonder Description"/>
+<EditText android:id="@+id/dialog_edit_desc" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_weight="1" android:layout_margin="5sp" android:ems="10"></EditText>
+</LinearLayout>
+
+<Button android:id="@+id/dialog_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center" android:text="Ok"/>
+</LinearLayout>
+
