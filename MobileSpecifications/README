@@ -1,0 +1,3 @@
+App consists of a Remote service named AndroidGadgetDataService which returns the image and specification of a specified Android Smartphone,given the Model Name – (Specifications - Size, Android OS Version, Connectivity, Processor, Camera Specifications, SD Card storage etc).
+
+It also an activity named AndroidGadgetSpecActivity with UI to search for a specific Android Smartphone Model specification and bind to the remote service to get that information and display the information in a well defined layout of the activity.
